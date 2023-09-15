@@ -1,4 +1,5 @@
 #! /bin/bash
+
 echo "*** Updating fzf"
 echo "[ ] Checking remote and local tags"
 remote_tag=$(curl -sL https://api.github.com/repos/junegunn/fzf/releases/latest | jq -r ".tag_name")

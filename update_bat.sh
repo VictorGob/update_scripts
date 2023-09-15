@@ -1,5 +1,5 @@
 #! /bin/bash
-# bat_0.22.1_amd64.deb
+
 echo "*** Updating bat"
 echo "[ ] Checking remote and local tags"
 remote_tag=$(curl -sL https://api.github.com/repos/sharkdp/bat/releases/latest | jq -r ".tag_name" | cut -c 2-)
