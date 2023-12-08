@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/bin/bash
 echo "*** Updating Starship"
 echo "[ ] Checking remote and local tags"
 remote_tag=$(curl -sL https://api.github.com/repos/starship/starship/releases/latest | jq -r ".tag_name")
