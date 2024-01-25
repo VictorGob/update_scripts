@@ -16,7 +16,7 @@ else
     echo "*** Updating..."
     cd ~/.fzf
     git fetch && git pull
-    bash install
+    bash install && git gc
     echo ""
     echo "*** fzf updated ***"
 fi
