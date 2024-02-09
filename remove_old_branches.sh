@@ -28,7 +28,6 @@ log() {
 }
 
 branches=$(git branch -r | sed 's/origin\///')
-# echo "$branches"
 # Initialize counter
 counter=0
 for branch in $branches; do
